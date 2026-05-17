@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ebeef2" />
+    <title>Note.ms</title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover"
+    />
+    <meta name="format-detection" content="telephone=no" />
+
+    <link href="./lib/abc.css" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="./meta/favicon.png" type="image/png" />
+    <link rel="icon" href="./meta/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="meta/app.png" />
+    <link rel="apple-touch-icon-precomposed" href="meta/app.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="msapplication-TileColor" content="ebeef2" />
+    <meta name="msapplication-TileImage" content="meta/app.png" />
+    <meta name="theme-color" content="#ebeef2" />
+
+    <meta property="og:title" content="Note.ms" />
+    <meta property="og:site_name" content="Note.ms" />
+    <meta property="og:description" content="Take notes with simplicity" />
+    <meta property="og:image" content="meta/app.png" />
+  </head>
+  <body>
+    <div class="stack">
+      <div class="layer">
+        <div class="layer">
+          <div class="layer">
+            <textarea class="content"></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="flag"><a href="./index.html">Note.ms</a>/fyhi</div>
+    </div>
+    <pre class="print"></pre>
+    <script src="./lib/abc.js"></script>
+
+    <script
+      defer=""
+      src="./_external/static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "b7f77d84879a4c82972bd5bf4fd8de1d"}'
+    ></script>
+    <script>
+      (function () {
+        function c() {
+          var b = a.contentDocument || a.contentWindow.document;
+          if (b) {
+            var d = b.createElement("script");
+            d.innerHTML =
+              "window.__CF$cv$params={r:'9f73b9bb0d4a535a',t:'MTc3ODAyNTg0NA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";
+            b.getElementsByTagName("head")[0].appendChild(d);
+          }
+        }
+        if (document.body) {
+          var a = document.createElement("iframe");
+          a.height = 1;
+          a.width = 1;
+          a.style.position = "absolute";
+          a.style.top = 0;
+          a.style.left = 0;
+          a.style.border = "none";
+          a.style.visibility = "hidden";
+          document.body.appendChild(a);
+          if ("loading" !== document.readyState) c();
+          else if (window.addEventListener) document.addEventListener("DOMContentLoaded", c);
+          else {
+            var e = document.onreadystatechange || function () {};
+            document.onreadystatechange = function (b) {
+              e(b);
+              "loading" !== document.readyState && ((document.onreadystatechange = e), c());
+            };
+          }
+        }
+      })();
+    </script>
+    <iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden"></iframe>
+  </body>
+</html>
